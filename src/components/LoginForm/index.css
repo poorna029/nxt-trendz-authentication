@@ -1,0 +1,77 @@
+.login-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.website-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* width: 50vw; */
+}
+
+.website-login-img {
+  width: 35vw;
+  height: 20vw;
+}
+.website-logo {
+  width: 18vw;
+  padding-top: 8vh;
+}
+.input-fields-container {
+  /* width: 50vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 30px;
+  box-shadow: 0px 0px 10px 2px #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+.username-style {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  padding-top: 3vh;
+}
+
+.userpassword-style {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+}
+
+.user-input-style {
+  width: 300px;
+  background-color: #dde;
+  outline: none;
+  border: none;
+  line-height: 1.8;
+  padding: 5px;
+  padding-left: 15px;
+  border-radius: 5px;
+}
+
+.but {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  width: stretch;
+  padding: 10px;
+}
+
+.username-container {
+  line-height: 1.8;
+}
+.password-container {
+  line-height: 1.8;
+}

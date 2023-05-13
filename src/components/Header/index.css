@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.ul {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* margin: 30px; */
+  background-color: #dde;
+  padding: 5px 25px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.website-logo-header {
+  width: 10vw;
+}
+.home-routes {
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  align-items: center;
+  color: #999;
+  font-weight: 800;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}

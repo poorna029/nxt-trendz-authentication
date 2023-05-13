@@ -1,0 +1,19 @@
+.home-sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  justify-content: center;
+  text-align: left;
+}
+.home-subs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  width: 80vw;
+}
+.home-container {
+  width: 80vw;
+  margin: 0px auto;
+}
